@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>agenda</title>
+
+</head>
+<body>
+    <div class="container">
+    <form action="resultaat.php" method="POST"> 
+
+
+
+
+
+        <!-- dat is de titel -->
+        <div class="titelinput">
+            <input type="text" name="titel" placeholder="Titel" required >
+            
+            
+        </div>
+
+        <!-- dat is een naam en een achternaam extra -->
+        <div class="naam">
+        <input type="text" name="naam" placeholder="Naam en achternaam" required>
+        
+                
+        </div>
+
+        <!-- dat is locatieafspraak -->
+        <div class="locatieafspraak">
+            <input type="text" name="locatie" placeholder="Locatie" required >
+            
+            
+        </div>
+<!-- 
+        dat is de omschrijvingafspraak -->
+        <div class="omschrijvingafspraak">
+            <input type="text"name="omschrijving" placeholder="Omschrijving van de afspraak" required>
+            
+        </div>
+
+        <!-- dat is de datum -->
+        <div class="datum">
+            <input type="date" name="date" required>
+       
+        </div>
+
+   
+
+
+
+
+ <!-- dat is de tijd van  -->
+        <div class="timevan">
+            <input type="time" name="time"  required>
+        </div>
+
+        <!-- dat is de tijd tot  -->
+        <div class="timetot">
+            <input type="time" name="time2" required>
+        </div>
+
+
+        <input type="submit" value="verzenden" name="verzenden">
+    </form>
+</div>
+
+    
+</body>
+</html>
